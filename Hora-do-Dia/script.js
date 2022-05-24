@@ -1,4 +1,4 @@
-// Funcao carregar - mostra mensagem, hora e imagem
+// Funcao carregar - mostra mensagem hora/data atual e representa imagem.
 function carregar() {
     var msg = window.document.getElementById("msg")
     var img = window.document.getElementById("imagem")
