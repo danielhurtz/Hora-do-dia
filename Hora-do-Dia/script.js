@@ -13,15 +13,15 @@ function carregar() {
     msg2.innerHTML = `Data: ${dataAtual}`
     if (hora >= 0 && hora < 12) {
         //BOM DIA!
-        img.src = 'dia.png'
+        img.src = './img/dia.png'
         document.body.style.background = '#fab876'
     } else if (hora >= 12 && hora <= 18) {
         //BOA TARDE!
-        img.src = 'tarde.png'
+        img.src = './img/tarde.png'
         document.body.style.background = '#6a476a'
     } else {
         //BOA NOITE!
-        img.src = 'noite.png'
+        img.src = './img/noite.png'
         document.body.style.background = '#192329'
     }
 }
